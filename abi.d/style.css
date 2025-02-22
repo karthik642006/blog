@@ -1,0 +1,144 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #b0a32e;
+}
+
+/* Header Section */
+header {
+    background: #9f0f0f;
+    color: #375254;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Container for content */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* About Me Section */
+.about-me {
+    background: #214964;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.about-me h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about-me p {
+    font-size: 1.2em;
+    color: #333333;
+}
+
+/* Skills Section */
+.skills {
+    background: #592c5a;
+    padding: 40px 0;
+}
+
+.skills h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skills ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skills li {
+    background: #5245c8;
+    color: #26627d;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Projects Section */
+.projects {
+    padding: 40px 0;
+}
+
+.projects h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.project-card {
+    background: #30626e;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(115, 18, 154, 0.1);
+}
+
+.project-card h3 {
+    font-size: 1.8em;
+    color: #333;
+}
+
+.project-card p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Contact Section */
+.contact {
+    background: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.contact a {
+    background: #4147f8;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+/* Footer Section */
+footer {
+    background: #333333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 1em;
+}
